@@ -37,8 +37,8 @@ router.post('/', function (req, res) {
     };
 
   } catch (error) {
-    console.error('Traccar validation error');
-    res.status(401).send('VALIDATION ERROR');
+    console.error('Traccar validation error', error);
+    res.status(400).send('BAD REQUEST');
   }
 
 
