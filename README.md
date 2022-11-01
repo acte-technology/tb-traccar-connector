@@ -2,6 +2,7 @@
 
 Connect Traccar Mobile Application to Thingsboard with NodeJS.
 
+Tutorial link: https://acte.ltd/blog/fleet-tracking-traccar-thingsboard
 
 
 ## Node connector
